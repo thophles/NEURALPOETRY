@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEURAL POETRY</title>
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+  <!-- Page Layers and Content -->
+<div class="container">
+  <div class="aboutText">
+    <p>Neural Poetry is an ongoing experiment that acts as a collaboration between poet and machine. Using the Char-RNN algorithm, the works of multiple hip-hop emcees, poets, and philosphers are sourced for training and once a body of work has been generated, it is minimally edited down for literacy, and trained again on the new material. This site includes those results, as well as my own work that went into training it.</p>
+    <p>Technologies: Python, Javascript, HTML, CSS</p>
+  </div>
+  <div class="layerOne" id="layerOne">
+  <div class="poetryLinks" id="poetryLinks" onclick="layerTwoClassChange()">
+      <svg width="363px" height="960px" viewBox="0 0 363 960" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+          <title>Group</title>
+          <desc>Created with Sketch.</desc>
+          <defs></defs>
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="24" font-weight="bold" letter-spacing="13.33333">
+              <g id="Desktop-HD" transform="translate(-757.000000, 0.000000)">
+                  <g id="Group" transform="translate(756.000000, -14.000000)">
+                      <text id="neural-poetry-copy" fill="#FFFFFF">
+                          <tspan x="0" y="23">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-2" fill="#FFFFFF">
+                          <tspan x="0" y="65">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-3" fill="#FFFFFF">
+                          <tspan x="0" y="107">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-4" fill="#FFFFFF">
+                          <tspan x="0" y="149">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-5" fill="#FFFFFF">
+                          <tspan x="0" y="191">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-6" fill="#FFFFFF">
+                          <tspan x="0" y="233">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-7" fill="#FFFFFF">
+                          <tspan x="0" y="275">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-8" fill="#FFFFFF">
+                          <tspan x="0" y="317">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-9" fill="#FFFFFF">
+                          <tspan x="0" y="359">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-10" fill="#FFFFFF">
+                          <tspan x="0" y="401">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-11" fill="#FFFFFF">
+                          <tspan x="0" y="443">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-12" fill="#FFFFFF">
+                          <tspan x="0" y="485">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-13" fill="#FFFFFF">
+                          <tspan x="0" y="527">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-14" fill="#FFFFFF">
+                          <tspan x="0" y="569">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-15" fill="#FFFFFF">
+                          <tspan x="0" y="611">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-16" fill="#FFFFFF">
+                          <tspan x="0" y="653">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-17" fill="#FFFFFF">
+                          <tspan x="0" y="695">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-18" fill="#000000">
+                          <tspan x="0" y="737">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-19" fill="#FFFFFF">
+                          <tspan x="0" y="779">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-20" fill="#FFFFFF">
+                          <tspan x="0" y="821">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-21" fill="#FFFFFF">
+                          <tspan x="0" y="863">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-22" fill="#FFFFFF">
+                          <tspan x="0" y="905">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-23" fill="#FFFFFF">
+                          <tspan x="0" y="947">NEURAL POETRY</tspan>
+                      </text>
+                      <text id="neural-poetry-copy-24" fill="#FFFFFF">
+                          <tspan x="0" y="989">NEURAL POETRY</tspan>
+                      </text>
+                  </g>
+              </g>
+          </g>
+      </svg>
+    </div>
+  </div>
+  <div class="layerTwo" id="layerTwo">
+    <div class="poemList" id="poemList">
+      <ul>
+        <li id="poem1">FAMILY VALUES</li>
+        <li id="poem2">NEW LESSONS</li>
+        <li id="poem3">FOUR DIRECTIONS</li>
+        <li id="poem4">SECOND LESSON</li>
+        <!-- <li id="poem5">NEURAL PRINCE</li> -->
+      </ul>
+    </div>
+    <div class="header">
+      <h1></h1>
+    </div>
+    <div class="poem" id="poem">
+    </div>
+  </div>
+  <!-- Page Links -->
+  <div class="aboutLink" onclick="layerOneClassChange()">
+    <svg width="15px" height="104px" viewBox="0 0 15 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+        <title>about</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="18" font-weight="bold" letter-spacing="10">
+            <g id="Desktop-HD" transform="translate(-1259.000000, -755.000000)" fill="#FFFFFF">
+                <text id="about" transform="translate(1266.000000, 802.000000) rotate(-90.000000) translate(-1266.000000, -802.000000) ">
+                    <tspan x="1209" y="809">ABOUT</tspan>
+                </text>
+            </g>
+        </g>
+    </svg>
+  </div>
+  <div class="homeLink" onclick="layerOneClassChange()">
+    <svg width="15px" height="83px" viewBox="0 0 15 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+        <title>home</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="18" font-weight="bold" letter-spacing="10">
+            <g id="Desktop-HD-Copy" transform="translate(-161.000000, -755.000000)" fill="#FFFFFF">
+                <text id="home" transform="translate(168.000000, 792.000000) rotate(-90.000000) translate(-168.000000, -792.000000) ">
+                    <tspan x="121" y="799">HOME</tspan>
+                </text>
+            </g>
+        </g>
+    </svg>
+  </div>
+  <div class="githubLink">
+    <svg width="15px" height="119px" viewBox="0 0 15 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+        <title>github</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="#ffffff" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="18" font-weight="bold" letter-spacing="10">
+            <g id="Desktop-HD-Copy" transform="translate(-1259.000000, -129.000000)" fill="#000000">
+                <text id="github" transform="translate(1266.000000, 183.500000) rotate(-90.000000) translate(-1266.000000, -183.500000) ">
+                    <tspan x="1201.5" y="190.5">GITHUB</tspan>
+                </text>
+            </g>
+        </g>
+    </svg>
+  </div>
+</div>
+<div class="smallScreens">
+  <p>Please expand your screen size or use a larger device.</p>
+</div>
+</body>
+<script type="text/javascript" src="javascript/shuffle-letters.js"></script>
+<script type="text/javascript" src="javascript/animations.js"></script>
+</html>
